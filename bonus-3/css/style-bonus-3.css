@@ -1,0 +1,36 @@
+.ms_calculator {
+    width: 500px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.ms_risultato-box {
+    height: 77px;
+    color: #fff;
+    border-bottom: solid 1px #fff;
+    line-height: 77px;
+    font-size: 20px;
+}
+
+.ms_button-circle {
+    border-radius: 50%;
+    border: 1px #fff solid;
+    background-color: #888;
+    height: 77px;
+    line-height: 77px;
+    font-size: 20px;
+}
+
+.ms_dark-grey {
+    background-color: #333;
+    color: #fff;
+}
+
+.ms_orange {
+    background-color: orange;
+}
+
+.ms_zero {
+    border-radius: 50px;
+    border: #fff 1px solid;
+}
