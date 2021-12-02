@@ -9,7 +9,23 @@ const firstN = prompt('Inserisci il primo numero da calcolare');
 const secondN = prompt('Inserisci il secondo numero da calcolare');
 
 // risultato visibile nella calcolatrice
-let resultN = `${firstN} ${operatorX} ${secondN}`;
+let resultN;
+
+if (operatorX == '+') {
+    resultN = firstN + secondN;
+}
+
+else if (operatorX == '-') {
+    resultN = firstN - secondN;
+}
+
+else if (operatorX == '*') {
+    resultN = firstN * secondN;
+}
+
+else {
+    resultN = firstN / secondN;
+}
 
 let htmlElement = document.getElementById('risultatoN');
 htmlElement.innerHTML = `${resultN}`;
