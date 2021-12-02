@@ -1,0 +1,16 @@
+.ms_calculator-container {
+    background-color: brown;
+    margin: 20px auto;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+}
+
+.ms_number-box {
+    background-color: burlywood;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
